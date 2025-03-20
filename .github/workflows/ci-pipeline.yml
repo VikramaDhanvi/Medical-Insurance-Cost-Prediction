@@ -19,4 +19,4 @@ jobs:
         run: sudo docker build -t my-html-server docker-html/
 
       - name: Run Docker Container
-        run: sudo docker run -d -p 8080:80 my-html-server
+        run: sudo docker run -d -p 8080:80 my-html-server  
