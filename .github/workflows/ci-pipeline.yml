@@ -22,4 +22,4 @@ jobs:
         run: |
           sudo docker stop my-html-server || true
           sudo docker rm my-html-server || true
-          sudo docker run -d --name my-html-server -p 8080:80 my-html-server
+          sudo docker run -d --name my-html-server -p 8080:80 my-html-server   
